@@ -1,0 +1,21 @@
+//Only imports
+//1 - HELPERS
+@import "1-abstracts/variables";
+//2 - BASE
+@import "2-base/base";
+@import "2-base/utilities";
+//3 - COMPONENT
+@import "3-components/buttons";
+@import "3-components/cards";
+@import "3-components/input";
+@import "3-components/link";
+@import "3-components/table";
+@import "3-components/text";
+@import "3-components/dialogs";
+//4 - LAYOUT
+//layout : header , footer ,sidebar, big portions of components
+@import "4-layout/sidenav";
+@import "4-layout/login";
+//5- PAGES
+//pages : css just for those pages specifically
+@import "5-pages/home";

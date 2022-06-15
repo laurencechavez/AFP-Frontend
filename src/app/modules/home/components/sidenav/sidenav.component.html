@@ -1,0 +1,32 @@
+<mat-nav-list class="p-2 sidenav__content">
+    <div class="sidenav-brand mb-2">
+      <img [src]="logotipo" alt="logo-example" class="sidenav-brand__logotipo" />
+    </div>
+
+    <!-- Inicio Boton -->
+    <div
+      class="link"
+      mat-list-item
+      (click)="irALink('/home/table')"
+      routerLink="/home/table"
+      routerLinkActive="list-item-active-link"
+    >
+      <mat-icon class="link__icon mx-1">table</mat-icon
+      ><span class="link__text">Tabla</span>
+    </div>
+    <!-- Fin Boton -->
+
+    <!-- Inicio Boton -->
+    <div
+      class="link"
+      mat-list-item
+      (click)="irALink('/home/info')"
+      routerLink="/home/info"
+      routerLinkActive="list-item-active-link"
+    >
+      <mat-icon class="link__icon mx-1">info</mat-icon
+      ><span class="link__text">Información</span>
+    </div>
+    <!-- Fin Boton -->
+
+  </mat-nav-list>

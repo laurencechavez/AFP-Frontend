@@ -1,0 +1,27 @@
+.link {
+    cursor: pointer;
+    border-radius: 5px;
+    color: $color-white !important;
+    background-color: $color-secondary;
+    margin: 2rem .5rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    outline: none;
+  }
+  .link:hover {
+    background-color: $color-secondary-dark !important;
+    color: $color-white !important;
+    transition: 0.5s;
+    transform: translateX(2px);
+  }
+  
+  .list-item-active-link {
+    //background-color: darken($color-tertiary, 15%);
+    color: $color-primary !important;
+    background-color: $color-accent !important;
+  }
+  
+  .mat-nav-list .mat-list-item:hover {
+    background: rgba(0, 0, 0, 0);
+  }

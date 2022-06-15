@@ -1,0 +1,51 @@
+.mat-raised-button {
+  background-color: $color-secondary;
+  color: $color-white;
+  font-weight: 400;
+}
+
+.mat-raised-button:hover {
+  background-color: $color-secondary-dark;
+}
+
+.centradomomentaneo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginbutton {
+  width: 60%;
+  height: 5rem;
+}
+
+.mat-icon-button {
+  color: $color-secondary !important;
+}
+
+.buttonIcon {
+  margin-right: 1rem;
+}
+
+.decline-button {
+  width: 48%;
+  font-size: 1.5rem;
+  color: $color-warning;
+  background-color: $color-warning-back !important;
+  border-radius: 0.8rem;
+  border: none;
+  height: 3.5rem;
+  border: 2px solid $color-warning !important;
+}
+
+.acept-button {
+  width: 48%;
+  font-size: 1.5rem;
+  color: $color-acept;
+  background-color: $color-acept-back !important;
+  border-radius: 0.8rem;
+  border: none;
+  height: 3.5rem;
+  border: 2px solid $color-acept !important;
+}
